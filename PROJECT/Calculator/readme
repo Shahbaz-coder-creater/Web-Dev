@@ -1,1 +1,67 @@
 
+# Calculator
+
+A simple and responsive Calculator built using HTML, CSS, and JavaScript.
+
+## Features
+
+- Basic arithmetic operations
+- Responsive design
+- Dark modern UI
+- Event Delegation
+- Backspace support
+- AC (Clear Display)
+- Error handling using try...catch
+- Prevents multiple operators together
+- Result state handling
+
+## Technologies Used
+
+- HTML5
+- CSS3
+- JavaScript (ES6)
+
+## Project Structure
+
+CALCULATOR/
+│
+├── index.html
+├── style.css
+├── script.js
+├── README.md
+└── images/
+    └── calculator-preview.png
+
+## Screenshot
+
+(Add your calculator screenshot here)
+
+## What I Learned
+
+- DOM Manipulation
+- Event Delegation
+- Event Bubbling
+- addEventListener()
+- event.target
+- JavaScript Conditions
+- Arrays
+- includes()
+- isNaN()
+- slice()
+- replaceAll()
+- try...catch
+- eval()
+- Responsive Design
+- CSS Grid
+
+## Future Improvements
+
+- Keyboard Support
+- Scientific Calculator
+- Decimal Validation
+- History Section
+- Theme Switcher
+
+## Author
+
+Shahbaz Ali
