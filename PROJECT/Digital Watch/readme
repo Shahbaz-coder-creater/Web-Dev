@@ -1,1 +1,73 @@
 
+# ⏰ Neon Digital Clock
+
+A modern and responsive Digital Clock built using **HTML**, **CSS**, and **JavaScript**. It displays the current time, date, day, AM/PM, and a dynamic greeting with a modern cyberpunk-inspired UI.
+
+---
+
+## ✨ Features
+
+- ⏰ Live Digital Clock
+- 📅 Current Date
+- 📆 Current Day
+- 🌞 AM / PM Indicator
+- 👋 Dynamic Greeting
+- 💜 Neon Cyberpunk UI
+- 📱 Responsive Design
+- ⚡ Real-Time Updates Every Second
+
+---
+
+## 🛠️ Built With
+
+- HTML5
+- CSS3
+- JavaScript (ES6)
+
+---
+
+## 📂 Project Structure
+
+```
+Digital-Clock/
+│
+├── index.html
+├── style.css
+├── script.js
+├── fonts/
+│   └── DSEG7 Font Files
+├── images/
+│   └── preview.png
+└── README.md
+```
+
+---
+
+## 📚 What I Learned
+
+During this project I learned:
+
+- DOM Manipulation
+- querySelector()
+- JavaScript Date Object
+- setInterval()
+- 12-Hour Time Format
+- AM / PM Conversion
+- Dynamic Greeting
+- Date and Day Handling
+- Responsive Design
+- Custom Fonts
+- Modern UI Design
+
+---
+
+
+## 👨‍💻 Author
+
+**Shahbaz Ali**
+
+GitHub: https://github.com/your-Shahbaz-Ali-@-5624
+
+---
+
+If you found this project helpful, consider giving it a ⭐ on GitHub.
