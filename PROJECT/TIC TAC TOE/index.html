@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tic Tac Toe</title>
+ <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="wrap">
+  <h1><span>X</span> vs <span>O</span></h1>
+  <div class="status" id="status">X ki baari hai</div>
+
+  <div class="score-board">
+    <div class="score-item">
+      <div class="score-label">X JEETA</div>
+      <div class="score-value" id="scoreX">0</div>
+    </div>
+    <div class="score-item">
+      <div class="score-label">DRAW</div>
+      <div class="score-value" id="scoreDraw">0</div>
+    </div>
+    <div class="score-item">
+      <div class="score-label">O JEETA</div>
+      <div class="score-value" id="scoreO">0</div>
+    </div>
+  </div>
+
+  <div class="board" id="board"></div>
+
+  <div class="controls">
+    <button class="action" id="resetScore">Score Reset</button>
+    <button class="action primary" id="newGame">Naya Game</button>
+  </div>
+</div>
+
+
+<script src="script.js"></script>
+</body>
+</html>
