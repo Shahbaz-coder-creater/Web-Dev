@@ -1,0 +1,258 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+@font-face{
+    font-family: "DSEG7";
+    src: url("./fonts/dseg7-classic-latin-400-normal.ttf") 
+    format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+body{
+    min-height:100vh;
+    background: #050816;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.container{
+    width:90%;
+    max-width:900px;
+    padding:20px;
+    border:2px solid #223547;
+    border-radius:20px;
+    display:flex;
+    flex-direction:column;
+    gap:30px;
+}
+
+.header{
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.logo{
+
+    color: #59F3E8;
+    display:flex;
+    align-items:center;
+    gap:10px;
+}
+.logo i{
+    font-size:2rem;
+    color:#59F3E8;
+}
+.theme-toggle{
+    display:flex;
+    align-items:center;
+}
+
+.clock{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:20px;
+    padding:30px;
+    border:2px solid #223547;
+    border-radius:20px;
+    box-shadow:0 0 10px rgba(89,243,232,.15),inset 0 0 15px rgba(89,243,232,.08);
+
+}
+.hour,
+.minute,
+.second{
+    
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    color: #59F3E8;
+   
+    gap:10px;
+}
+.minute{
+  color: #E88CFF; 
+}
+
+.hour h2,
+.minute h2,
+.second h2{
+ font-family: "DSEG7";
+    font-weight: 400;
+    font-size:5rem;
+}
+
+.clock span{
+    color: #59F3E8;
+    font-size:4rem;
+}
+
+.ampm{
+    color: #59F3E8;
+    font-size:1.5rem;
+     font-family:  Arial, Helvetica, sans-serif;
+    font-weight: 200;
+
+}
+.info{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:20px;
+}
+.cards{
+    border:2px solid #223547;
+    border-radius:20px;
+    box-shadow:0 0 10px rgba(89,243,232,.15),inset 0 0 15px rgba(89,243,232,.08);
+    padding:20px;
+    display:flex;
+    /* flex-direction:column; */
+    gap:10px;
+}
+
+.calander_info p{
+    color: #DB7CFF;
+}
+.cards i{
+
+    font-size:3rem;
+    color:#59F3E8;
+    margin-bottom:10px;
+}
+.day i{
+  color: #DB7CFF;
+}
+
+.cards p{
+    color:#59F3E8;
+     margin: 5px;
+}
+.cards h3{
+    margin: 5px;
+    font-family:  Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    color: #ffff;
+}
+
+footer {
+
+    text-align:center;
+    padding:15px;
+}
+.p{
+    color: #E88CFF;
+}
+
+/* From Uiverse.io by andrew-demchenk0 */ 
+.switch {
+  font-size: 17px;
+  position: relative;
+  display: inline-block;
+  width: 64px;
+  height: 34px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ffff;
+  transition: .4s;
+  border-radius: 30px;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 30px;
+  width: 30px;
+  border-radius: 20px;
+  left: 2px;
+  bottom: 2px;
+  z-index: 2;
+  background-color: #e8e8e8;
+  transition: .4s;
+}
+
+.sun svg {
+  position: absolute;
+  top: 6px;
+  left: 36px;
+  z-index: 1;
+  width: 24px;
+  height: 24px;
+  
+}
+
+.moon svg {
+  fill: #050816;
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  z-index: 1;
+  width: 24px;
+  height: 24px;
+ 
+}
+
+/* .switch:hover */.sun svg {
+  animation: rotate 15s linear infinite;
+}
+
+@keyframes rotate {
+ 
+  0% {
+    transform: rotate(0);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.switch:hover.moon svg {
+  animation: tilt 5s linear infinite;
+}
+
+@keyframes tilt {
+ 
+  0% {
+    transform: rotate(0deg);
+  }
+
+  25% {
+    transform: rotate(-10deg);
+  }
+
+  75% {
+    transform: rotate(10deg);
+  }
+
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+.input:checked + .slider {
+  background-color: #183153;
+}
+
+.input:focus + .slider {
+  box-shadow: 0 0 1px #183153;
+}
+
+.input:checked + .slider:before {
+  transform: translateX(30px);
+}
