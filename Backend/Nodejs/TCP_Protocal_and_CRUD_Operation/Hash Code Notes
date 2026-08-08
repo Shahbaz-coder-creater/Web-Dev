@@ -1,0 +1,52 @@
+# Hashing
+
+# Definition:
+# - Original data ko fixed-length code me convert karna Hashing kehlata hai.
+
+# Purpose:
+# - Password ko secure rakhna.
+
+# Flow:
+# Password
+# ↓
+# Hash Function
+# ↓
+# Hash Code
+# ↓
+# Database
+
+# Properties:
+# 1. Fixed Length
+# 2. One Way
+# 3. Same Input = Same Hash
+# 4. Different Input = Different Hash
+
+# Node.js Library:
+# bcrypt
+
+# Register:
+# Password → Hash → Database
+
+# Login:
+# Password → Hash → Compare → Login Success
+
+# Difference:
+# Hashing = One Way
+# Encryption = Two Way
+
+
+
+# bcrypt.hashSync(password, 10)
+
+# password
+# - Jo password hash karna hai.
+
+# 10
+# - Salt Rounds.
+# - Jitna bada number, utni zyada security.
+# - Lekin hashing me utna hi zyada time lagega.
+
+# Common Values:
+# 8  -> Fast
+# 10 -> Most Common (Recommended)
+# 12 -> More Secure

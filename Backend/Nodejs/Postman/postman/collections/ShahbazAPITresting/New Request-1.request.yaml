@@ -1,0 +1,18 @@
+$kind: http-request
+name: New Request
+url: http://localhost:3000/user
+method: PATCH
+body:
+  type: json
+  content: "{\r
+
+    \   \"email\":\"rohini@gmail.com\",\r
+
+    \   \"Name\":\"Rohini\",\r
+
+    \  \"age\": 100,\r
+
+    \  \"amount\": 100000000\r
+
+    }"
+order: 808289149954217

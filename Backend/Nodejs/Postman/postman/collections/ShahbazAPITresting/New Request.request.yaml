@@ -1,0 +1,18 @@
+$kind: http-request
+name: New Request
+url: http://localhost:3000/user
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \  \"name\": \"Ali\",\r
+
+    \  \"age\": 22,\r
+
+    \  \"email\": \"ali@gmail.com\",\r
+
+    \  \"amount\": 500\r
+
+    }"
+order: 1785675513342
