@@ -14,8 +14,8 @@ This repository showcases my learning journey in modern web development. It cont
 
 * ✅ HTML5
 * ✅ CSS3
-* 🔄 JavaScript
-* 🔄 DOM Manipulation
+* ✅ JavaScript
+* ✅ DOM Manipulation
 * 🔄 REST APIs (Fetch API)
 
 ---
