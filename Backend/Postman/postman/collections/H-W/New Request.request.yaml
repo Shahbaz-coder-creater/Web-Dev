@@ -1,0 +1,9 @@
+$kind: http-request
+name: New Request
+url: http://localhost:3000/product?price=30000&inStock=true&rating=4
+method: GET
+queryParams:
+  price: "30000"
+  inStock: "true"
+  rating: "4"
+order: 2240535469477512

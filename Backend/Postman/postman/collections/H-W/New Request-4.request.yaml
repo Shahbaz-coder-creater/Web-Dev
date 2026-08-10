@@ -1,0 +1,18 @@
+$kind: http-request
+name: New Request
+url: http://localhost:3000/product
+method: PUT
+body:
+  type: json
+  content: "{\r
+
+    \    \"id\": 2,\r
+
+    \    \"name\": \"iPhone\",\r
+
+    \    \"price\": 60000,\r
+
+    \    \"category\": \"Electronics\"\r
+
+    }"
+order: 4502192898285893

@@ -1,0 +1,19 @@
+$kind: http-request
+name: Untitled Request
+description: ""
+url: http://localhost:3000/product
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \    \"id\": 5,\r
+
+    \    \"name\": \"Mouse\",\r
+
+    \    \"category\": \"electronics\",\r
+
+    \    \"price\": 500\r
+
+    }"
+order: 1786340571602
