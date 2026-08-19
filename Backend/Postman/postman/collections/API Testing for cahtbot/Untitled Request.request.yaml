@@ -1,0 +1,13 @@
+$kind: http-request
+name: Untitled Request
+description: ""
+url: http://localhost:3000/users
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \   \"input\": \"You tell me about Modi ji\"\r
+
+    }"
+order: 1787170923417
