@@ -1,0 +1,9 @@
+$kind: http-request
+name: post
+description: ""
+url: http://localhost:3000//customer/bulk
+method: POST
+body:
+  type: json
+  content: ' { "name": "Uday Singh", "accountNumber": 1061, "city": "Chandigarh", "age": 29, "balance": 37000, "accountType": "saving" }'
+order: 1787405353022

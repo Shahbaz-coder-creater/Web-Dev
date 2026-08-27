@@ -1,0 +1,7 @@
+$kind: http-request
+url: http://localhost:3000/customer/1005
+method: PATCH
+body:
+  type: json
+  content: " { \r\n  \"amount\": 20000\r\n\r\n}"
+order: 4424591602701470

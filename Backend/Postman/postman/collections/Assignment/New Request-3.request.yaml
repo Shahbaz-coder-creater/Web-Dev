@@ -1,0 +1,5 @@
+$kind: http-request
+name: New Request
+url: http://localhost:3000/customer/1012
+method: DELETE
+order: 2327937778241862
