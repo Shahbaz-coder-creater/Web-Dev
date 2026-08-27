@@ -1,0 +1,8 @@
+$kind: http-request
+name: widthrwal
+url: http://localhost:3000/customer/1061/withdraw
+method: PATCH
+body:
+  type: json
+  content: "{\r\n   \" amount\": 20000\r\n}"
+order: 4503285941012805
