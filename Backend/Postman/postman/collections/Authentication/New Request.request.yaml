@@ -1,0 +1,4 @@
+$kind: http-request
+url: http://localhost:3000/profile
+method: GET
+order: 4462053856865778

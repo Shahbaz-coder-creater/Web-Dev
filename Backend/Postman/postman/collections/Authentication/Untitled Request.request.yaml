@@ -1,0 +1,18 @@
+$kind: http-request
+description: ""
+url: http://localhost:3000/sign
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \    \"email\": \"shahbazalicgs5624@gmail.com\",\r
+
+    \    \"name\": \"Shahabz ali\",\r
+
+    \    \"password\":\"shahbaz@45\",\r
+
+    \    \"age\": 19\r
+
+    }"
+order: 1790413750055
