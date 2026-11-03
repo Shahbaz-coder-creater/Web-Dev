@@ -12,12 +12,42 @@ This repository showcases my learning journey in modern web development. It cont
 
 ## 🚀 Current Progress
 
+### Frontend Development
+
 * ✅ HTML5
 * ✅ CSS3
-* ✅ JavaScript
+* ✅ JavaScript Fundamentals
 * ✅ DOM Manipulation
-* 🔄 REST APIs (Fetch API)
+* ✅ Event Listeners
+* ✅ Arrays & Objects
+* ✅ ES6+ Concepts
+* ✅ Promises
+* ✅ Async / Await
+* ✅ Fetch API
+* ✅ JSON
 
+### Backend Development
+
+* ✅ Node.js
+* ✅ Express.js
+* ✅ REST API Development
+* ✅ Routing & Middleware
+* ✅ Controllers & Services
+* ✅ HTTP Methods
+* ✅ Database Integration
+* ✅ Authentication & Authorization
+* ✅ AI Model API Integration
+* ✅ Chatbot Backend Development
+* ✅ API Testing with Postman
+* 🔄 Advanced MongoDB & Mongoose
+
+
+### Tools & Technologies
+
+* ✅ Git & GitHub
+* ✅ VS Code
+* ✅ Postman
+* 🔄 Backend Project Development
 ---
 
 ## 📚 Learning Roadmap
@@ -70,6 +100,31 @@ This repository showcases my learning journey in modern web development. It cont
 * HTTP Methods
 * REST API Integration
 
+### Node.js
+* Node.js Fundamentals
+* Modules
+* File System
+* HTTP Module
+* npm & Packages
+
+### Express.js
+* Express Server
+* Routing
+* Middleware
+* Request & Response
+* Controllers
+* Services
+* REST API Development
+
+### MongoDB & Mongoose
+* MongoDB Fundamentals
+* Database & Collections
+* Documents
+* BSON
+* Mongoose
+* Schema & Models
+* CRUD Operations
+
 ---
 
 ## 📂 Repository Structure
@@ -97,7 +152,7 @@ Web-Development/
 │   ├── Password Generator/
 │   ├── To-Do List/
 │   ├── Weather App/
-│   └── E-Commerce/
+│   └── AI-Chatbot/
 │
 ├── Notes/
 │
@@ -122,13 +177,15 @@ Web-Development/
 ## 🎯 Goals
 
 * Master JavaScript
-* Build real-world projects
+* Improve Backend Development Skills
+* Build Real-World REST APIs
 * Learn React.js
 * Learn Tailwind CSS
-* Learn Node.js
-* Learn Express.js
-* Learn MongoDB
-* Become a Full Stack Web Developer
+* Improve MongoDB & Mongoose
+* Learn Authentication & Authorization
+* Learn TypeScript
+* Learn Deployment
+* Build Full Stack Projects
 
 ---
 
